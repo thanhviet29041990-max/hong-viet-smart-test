@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "0.1.0",
+  "title": "HỒNG VIỆT SMART TEST – TOÁN LỚP 3",
+  "subject": "math",
+  "grade": 3,
+  "curriculum": {
+    "framework": "GDPT 2018",
+    "textbookSeries": "Kết nối tri thức với cuộc sống",
+    "topic": "Phép nhân, phép chia và hình chữ nhật",
+    "referenceStatus": "teacher_review_required"
+  },
+  "locale": "vi-VN",
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "marginMm": 15,
+    "showAnswers": false,
+    "targetPages": 2
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "type": "calculation",
+      "difficulty": "easy",
+      "prompt": "Tính:",
+      "math": {
+        "latex": "7 \\times 8 = \\square"
+      },
+      "answerSpaceLines": 2,
+      "points": 1
+    },
+    {
+      "id": "q02",
+      "type": "calculation",
+      "difficulty": "easy",
+      "prompt": "Tính:",
+      "math": {
+        "latex": "54 \\div 6 = \\square"
+      },
+      "answerSpaceLines": 2,
+      "points": 1
+    },
+    {
+      "id": "q03",
+      "type": "calculation",
+      "difficulty": "medium",
+      "prompt": "Đặt tính rồi tính: 124 × 3.",
+      "answerSpaceLines": 4,
+      "points": 2
+    },
+    {
+      "id": "q04",
+      "type": "geometry",
+      "difficulty": "medium",
+      "prompt": "Hình chữ nhật ABCD dài 6 cm, rộng 3 cm. Tính chu vi hình chữ nhật.",
+      "diagram": {
+        "kind": "svg-primitives",
+        "width": 240,
+        "height": 140,
+        "shapes": [
+          {
+            "type": "rect",
+            "x": 35,
+            "y": 25,
+            "width": 170,
+            "height": 80
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 24,
+              "y": 20
+            },
+            "text": "A"
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 209,
+              "y": 20
+            },
+            "text": "B"
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 209,
+              "y": 122
+            },
+            "text": "C"
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 24,
+              "y": 122
+            },
+            "text": "D"
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 110,
+              "y": 18
+            },
+            "text": "6 cm"
+          },
+          {
+            "type": "label",
+            "at": {
+              "x": 211,
+              "y": 70
+            },
+            "text": "3 cm"
+          }
+        ]
+      },
+      "answerSpaceLines": 5,
+      "points": 3
+    },
+    {
+      "id": "q05",
+      "type": "word_problem",
+      "difficulty": "medium",
+      "prompt": "Có 4 hộp bút, mỗi hộp có 9 chiếc bút. Hỏi có tất cả bao nhiêu chiếc bút?",
+      "answerSpaceLines": 5,
+      "points": 3
+    }
+  ]
+}
